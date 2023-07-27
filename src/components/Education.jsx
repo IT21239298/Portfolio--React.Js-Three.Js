@@ -5,22 +5,22 @@ import {
 import { motion } from "framer-motion";
 import "react-vertical-timeline-component/style.min.css";
 import { styles } from "../styles";
-import { experiences } from "../constants";
+import { education } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 
-const ExperienceCard = ({ experience }) => {
+const EducationCard = ({ education }) => {
   return (
     <VerticalTimelineElement
       contentStyle={{ background: "#1d1836", color: "#fff" }}
       contentArrowStyle={{ borderRight: "7px solid #232631" }}
-      date={experience.date}
-      iconStyle={{ background: experience.iconBg }}
+      date={education.date}
+      iconStyle={{ background: education.iconBg }}
       icon={
         <div>
           <img
-            src={experience.icon}
-            alt={experience.comapany_name}
+            src={education.icon}
+            alt={education.college_name}
             className="w-[100%] h-[100%]
                 object-contain"
           />
@@ -28,16 +28,16 @@ const ExperienceCard = ({ experience }) => {
       }
     >
       <div className="flex justify-center items-center w-full h-full">
-        <h3 className="text-white text-[24px] font-bold">{experience.title}</h3>
+        <h3 className="text-white text-[24px] font-bold">{education.title}</h3>
         <p
           className="text-secondary text-[16px] font-semibold"
           style={{ margin: 0 }}
         >
-          {experience.comapany_name}
+          {education.college_name}
         </p>
       </div>
       <ul className="mt-5 list-disc ml-5 space-y-2">
-        {experience.points.map((point, index) => (
+        {education.points.map((point, index) => (
           <li
             key={`experience-point-${index}`}
             className="text-white-100 text-[14px]
@@ -51,7 +51,7 @@ const ExperienceCard = ({ experience }) => {
   );
 };
 
-const Experience = () => {
+const Education = () => {
   return (
     <>
       <motion.dev variant={textVariant()}>
@@ -61,14 +61,14 @@ const Experience = () => {
 
       <div className="mt-20 flex flex-col">
         <VerticalTimeline>
-          {experiences.map((experience, index) => (
-            <ExperienceCard key={index} experience={experience} />
+          {education.map((education, index) => (
+            <EducationCard key={index} education={education} />
           ))}
         </VerticalTimeline>
         <h2 className={styles.sectionHeadText}>Worsadwde.</h2>
         <VerticalTimeline>
-          {experiences.map((experience, index) => (
-            <ExperienceCard key={index} experience={experience} />
+          {education.map((education, index) => (
+            <EducationCard key={index} education={education} />
           ))}
         </VerticalTimeline>
       </div>
@@ -76,4 +76,4 @@ const Experience = () => {
   );
 };
 
-export default SectionWrapper(Experience, "work");
+export default SectionWrapper(Education, "work");

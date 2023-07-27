@@ -15,8 +15,6 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
   tesla,
   shopify,
   carrent,
@@ -115,10 +113,10 @@ const technologies = [
   },
 ];
 
-const experiences = [
+const education = [
   {
     title: "A/Walisinha Harschandra college",
-    company_name: "Starbucks",
+    college_name: "Starbucks",
     icon: college,
     iconBg: "#E6DEDD",
     date: "Jan 2010 - december 2018",
@@ -131,7 +129,7 @@ const experiences = [
   },
   {
     title: "A/Walisinha Harschandra college",
-    company_name: "Tesla",
+    college_name: "Tesla",
     icon: tesla,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
@@ -144,7 +142,7 @@ const experiences = [
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
+    college_name: "Shopify",
     icon: shopify,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
@@ -250,4 +248,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, education, testimonials, projects };
