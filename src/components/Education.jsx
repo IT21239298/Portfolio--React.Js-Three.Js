@@ -21,7 +21,7 @@ const ExperienceCard = ({ experience }) => {
           <img
             src={experience.icon}
             alt={experience.comapany_name}
-            className="w-[60%] h-[60%]
+            className="w-[100%] h-[100%]
                 object-contain"
           />
         </div>
@@ -56,10 +56,16 @@ const Experience = () => {
     <>
       <motion.dev variant={textVariant()}>
         <p className={styles.sectionSubText}>What I have done so far</p>
-        <h2 className={styles.sectionHeadText}>Work Experience.</h2>
+        <h2 className={styles.sectionHeadText}>Education.</h2>
       </motion.dev>
 
       <div className="mt-20 flex flex-col">
+        <VerticalTimeline>
+          {experiences.map((experience, index) => (
+            <ExperienceCard key={index} experience={experience} />
+          ))}
+        </VerticalTimeline>
+        <h2 className={styles.sectionHeadText}>Worsadwde.</h2>
         <VerticalTimeline>
           {experiences.map((experience, index) => (
             <ExperienceCard key={index} experience={experience} />
