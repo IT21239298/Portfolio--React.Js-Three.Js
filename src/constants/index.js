@@ -16,7 +16,7 @@ import {
   figma,
   docker,
   tesla,
-  shopify,
+  sliit,
   carrent,
   jobit,
   tripguide,
@@ -116,7 +116,7 @@ const technologies = [
 const education = [
   {
     title: "A/Walisinha Harschandra college",
-    college_name: "Starbucks",
+    college_name: "",
     icon: college,
     iconBg: "#E6DEDD",
     date: "Jan 2010 - december 2018",
@@ -128,9 +128,9 @@ const education = [
     ],
   },
   {
-    title: "A/Walisinha Harschandra college",
-    college_name: "Tesla",
-    icon: tesla,
+    title: "SLIIT",
+    college_name: "",
+    icon: sliit,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
@@ -140,12 +140,27 @@ const education = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
+];
+const interest = [
   {
-    title: "Web Developer",
-    college_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    title: "Cricket",
+    college_name: "",
+    icon: college,
+    iconBg: "#E6DEDD",
+    date: "Jan 2010 - december 2018",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "SLIIT",
+    college_name: "",
+    icon: sliit,
+    iconBg: "#E6DEDD",
+    date: "Jan 2021 - Feb 2022",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -248,4 +263,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, education, testimonials, projects };
+export { services, technologies, education, testimonials, projects, interest };

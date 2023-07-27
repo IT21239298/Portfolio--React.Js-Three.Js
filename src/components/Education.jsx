@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import "react-vertical-timeline-component/style.min.css";
 import { styles } from "../styles";
 import { education } from "../constants";
+import { interest } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 
@@ -51,6 +52,48 @@ const EducationCard = ({ education }) => {
   );
 };
 
+const InterestCard = ({ interest }) => {
+  return (
+    <VerticalTimelineElement
+      contentStyle={{ background: "#1d1836", color: "#fff" }}
+      contentArrowStyle={{ borderRight: "7px solid #232631" }}
+      date={interest.date}
+      iconStyle={{ background: interest.iconBg }}
+      icon={
+        <div>
+          <img
+            src={interest.icon}
+            alt={interest.college_name}
+            className="w-[100%] h-[100%]
+                object-contain"
+          />
+        </div>
+      }
+    >
+      <div className="flex justify-center items-center w-full h-full">
+        <h3 className="text-white text-[24px] font-bold">{interest.title}</h3>
+        <p
+          className="text-secondary text-[16px] font-semibold"
+          style={{ margin: 0 }}
+        >
+          {interest.college_name}
+        </p>
+      </div>
+      <ul className="mt-5 list-disc ml-5 space-y-2">
+        {interest.points.map((point, index) => (
+          <li
+            key={`experience-point-${index}`}
+            className="text-white-100 text-[14px]
+           pl-1 tracking-wider"
+          >
+            {point}
+          </li>
+        ))}
+      </ul>
+    </VerticalTimelineElement>
+  );
+};
+
 const Education = () => {
   return (
     <>
@@ -67,8 +110,8 @@ const Education = () => {
         </VerticalTimeline>
         <h2 className={styles.sectionHeadText}>Worsadwde.</h2>
         <VerticalTimeline>
-          {education.map((education, index) => (
-            <EducationCard key={index} education={education} />
+          {interest.map((interest, index) => (
+            <InterestCard key={index} interest={interest} />
           ))}
         </VerticalTimeline>
       </div>
