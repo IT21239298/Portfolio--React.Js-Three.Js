@@ -15,7 +15,6 @@ import {
   git,
   figma,
   docker,
-  tesla,
   sliit,
   carrent,
   jobit,
@@ -115,29 +114,26 @@ const technologies = [
 
 const education = [
   {
-    title: "A/Walisinha Harschandra college",
+    title: "A/Walisinghe Harischandra College",
     college_name: "",
     icon: college,
     iconBg: "#E6DEDD",
-    date: "Jan 2010 - december 2018",
+    date: "Jan 2010 - dec 2018",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "A /Walisinghe Harischandra College is a mixed school which provides education for more than 5000 students which is situated at Anuradhapura.",
+      "G.C.E Ordinary Level Education (2014-2015).",
+      " G.C.E Advance Level Education in Biological Science stream (2016-2018).",
     ],
   },
   {
-    title: "SLIIT",
+    title: "Sri Lanka Institute of Information Technology",
     college_name: "",
     icon: sliit,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "feb 2021 - present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Sri Lanka Institute of Information Technology (SLIIT) awards the best IT Degree in Sri Lanka in the field of Information Technology and produces successful professionals.",
+      "BSc (Hons) Information Technology Specializing in Information Technology.",
     ],
   },
 ];
@@ -149,23 +145,27 @@ const interest = [
     iconBg: "#E6DEDD",
     date: "Jan 2010 - december 2018",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "I really enjoy playing and watching cricket. The sport's history,skillfull plays,and teamwork fascinate me. It's not just a hobby it's a sport that I have a genuine passion for.",
     ],
   },
   {
-    title: "SLIIT",
+    title: "Travelling",
     college_name: "",
     icon: sliit,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "I am an enthusiastic professional with a passion for travelling, experiencing different cultures and leveraging those experiences to foster creativity and innovation.",
+    ],
+  },
+  {
+    title: "Photography",
+    college_name: "",
+    icon: sliit,
+    iconBg: "#E6DEDD",
+    date: "Jan 2021 - Feb 2022",
+    points: [
+      "I have a profound appriciation for photography beacause it allows me to express my creativity and artistic vision. Through the lens, I can frame moments and scenes in unique ways.",
     ],
   },
 ];
@@ -259,6 +259,27 @@ const projects = [
       },
     ],
     image: tripguide,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Job IT",
+    description:
+      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jobit,
     source_code_link: "https://github.com/",
   },
 ];
