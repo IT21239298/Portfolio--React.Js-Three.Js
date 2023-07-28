@@ -28,7 +28,7 @@ const EducationCard = ({ education }) => {
         </div>
       }
     >
-      <div className="flex justify-center items-center w-full h-full">
+      <div className=" flex justify-center items-center w-full h-full">
         <h3 className="text-white text-[24px] font-bold">{education.title}</h3>
         <p
           className="text-secondary text-[16px] font-semibold"
@@ -102,7 +102,7 @@ const Education = () => {
         <h2 className={styles.sectionHeadText}>Education.</h2>
       </motion.dev>
 
-      <div className="mt-20 flex flex-col">
+      <div className="mt-20 flex flex-col ">
         <VerticalTimeline>
           {education.map((education, index) => (
             <EducationCard key={index} education={education} />

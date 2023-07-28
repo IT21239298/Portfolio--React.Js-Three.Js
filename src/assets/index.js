@@ -23,6 +23,9 @@ import threejs from "./tech/threejs.svg";
 
 import college from "./company/college.png";
 import sliit from "./company/sliit.png";
+import cricket from "./company/cricket.png";
+import photographi from "./company/photographi.png";
+import travelling from "./company/travelling.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -55,4 +58,7 @@ export {
   tripguide,
   college,
   sliit,
+  cricket,
+  photographi,
+  travelling,
 };

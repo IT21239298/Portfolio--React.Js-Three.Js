@@ -21,6 +21,9 @@ import {
   tripguide,
   threejs,
   college,
+  cricket,
+  travelling,
+  photographi,
 } from "../assets";
 
 export const navLinks = [
@@ -141,7 +144,7 @@ const interest = [
   {
     title: "Cricket",
     college_name: "",
-    icon: college,
+    icon: cricket,
     iconBg: "#E6DEDD",
     date: "Jan 2010 - december 2018",
     points: [
@@ -151,7 +154,7 @@ const interest = [
   {
     title: "Travelling",
     college_name: "",
-    icon: sliit,
+    icon: travelling,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
@@ -161,7 +164,7 @@ const interest = [
   {
     title: "Photography",
     college_name: "",
-    icon: sliit,
+    icon: photographi,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
