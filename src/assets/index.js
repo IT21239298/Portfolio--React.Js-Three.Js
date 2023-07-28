@@ -30,6 +30,8 @@ import travelling from "./company/travelling.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import payroll from "./payroll.png";
+import tuarify from "./tuarify.png";
 
 export {
   logo,
@@ -61,4 +63,6 @@ export {
   cricket,
   photographi,
   travelling,
+  payroll,
+  tuarify,
 };
