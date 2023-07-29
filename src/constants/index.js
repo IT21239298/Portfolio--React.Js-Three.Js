@@ -26,6 +26,8 @@ import {
   photographi,
   payroll,
   tuarify,
+  onlineBook,
+  grrenleaf,
 } from "../assets";
 
 export const navLinks = [
@@ -204,9 +206,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Green Leaf ",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "This system incorporates a stock management feature that enables users to access and download reports, as well as track available  stock after release, visually represented with graphs. Additionally, it includes a QR code generator for final products. To enhance user friendliness, pop-up windows and toast messages were implemented in the interface.",
     tags: [
       {
         name: "react",
@@ -221,7 +223,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: payroll,
+    image: grrenleaf,
     source_code_link: "https://github.com/",
   },
   {

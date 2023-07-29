@@ -32,6 +32,8 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import payroll from "./payroll.png";
 import tuarify from "./tuarify.png";
+import grrenleaf from "./grrenleaf.png";
+import onlineBook from "./onlineBook.png";
 
 export {
   logo,
@@ -65,4 +67,6 @@ export {
   travelling,
   payroll,
   tuarify,
+  grrenleaf,
+  onlineBook,
 };
