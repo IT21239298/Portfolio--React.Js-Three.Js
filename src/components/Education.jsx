@@ -98,7 +98,7 @@ const Education = () => {
   return (
     <>
       <motion.dev variant={textVariant()}>
-        <p className={styles.sectionSubText}>What I have done so far</p>
+        <p className={styles.sectionSubText}>What I have done so far...</p>
         <h2 className={styles.sectionHeadText}>Education.</h2>
       </motion.dev>
 
@@ -108,7 +108,8 @@ const Education = () => {
             <EducationCard key={index} education={education} />
           ))}
         </VerticalTimeline>
-        <h2 className={styles.sectionHeadText}>Worsadwde.</h2>
+        <p className={styles.sectionSubText}>Favourite...</p>
+        <h2 className={styles.sectionHeadText}>Interests and likes.</h2>
         <VerticalTimeline>
           {interest.map((interest, index) => (
             <InterestCard key={index} interest={interest} />
