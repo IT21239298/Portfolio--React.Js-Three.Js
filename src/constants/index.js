@@ -198,7 +198,8 @@ const projects = [
       },
     ],
     image: grrenleaf,
-    source_code_link: "https://github.com/",
+    source_code_link:
+      "https://github.com/IT21239298/Green-Leaf-information-system",
   },
   {
     name: "Tuarify",
@@ -215,7 +216,7 @@ const projects = [
       },
     ],
     image: tuarify,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/IT21239298/Tourify-Mobile-App",
   },
   {
     name: "The Bigbook Shelf",
@@ -236,7 +237,7 @@ const projects = [
       },
     ],
     image: onlineBook,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/IT21239298/The-Big-Book-Shelf",
   },
   {
     name: "Staff Management ",
