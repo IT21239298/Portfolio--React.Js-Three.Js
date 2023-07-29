@@ -27,9 +27,6 @@ import cricket from "./company/cricket.png";
 import photographi from "./company/photographi.png";
 import travelling from "./company/travelling.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 import payroll from "./payroll.png";
 import tuarify from "./tuarify.png";
 import grrenleaf from "./grrenleaf.png";
@@ -57,9 +54,6 @@ export {
   tailwind,
   typescript,
   threejs,
-  carrent,
-  jobit,
-  tripguide,
   college,
   sliit,
   cricket,
