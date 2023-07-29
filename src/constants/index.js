@@ -150,7 +150,7 @@ const interest = [
     college_name: "",
     icon: cricket,
     iconBg: "#E6DEDD",
-    date: "Jan 2010 - december 2018",
+    date: "",
     points: [
       "I really enjoy playing and watching cricket. The sport's history,skillfull plays,and teamwork fascinate me. It's not just a hobby it's a sport that I have a genuine passion for.",
     ],
@@ -160,7 +160,7 @@ const interest = [
     college_name: "",
     icon: travelling,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "",
     points: [
       "I am an enthusiastic professional with a passion for travelling, experiencing different cultures and leveraging those experiences to foster creativity and innovation.",
     ],
@@ -170,7 +170,7 @@ const interest = [
     college_name: "",
     icon: photographi,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "",
     points: [
       "I have a profound appriciation for photography beacause it allows me to express my creativity and artistic vision. Through the lens, I can frame moments and scenes in unique ways.",
     ],
@@ -211,53 +211,53 @@ const projects = [
       "This system incorporates a stock management feature that enables users to access and download reports, as well as track available  stock after release, visually represented with graphs. Additionally, it includes a QR code generator for final products. To enhance user friendliness, pop-up windows and toast messages were implemented in the interface.",
     tags: [
       {
-        name: "react",
+        name: "react.JS",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "node.JS",
         color: "green-text-gradient",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
     ],
     image: grrenleaf,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Tuarify",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "The aim of this travel app was to increase tourists' access to and affordability of travel. This system's drivers management function was implemented to manage drivers' profiles, view drivers' details for customers, and manage drivers' payment information",
     tags: [
       {
-        name: "react",
+        name: "Kotlin",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Firebase",
         color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
       },
     ],
     image: tuarify,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "The Bigbook Shelf",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
-        name: "nextjs",
+        name: "php",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "html",
         color: "green-text-gradient",
       },
       {
@@ -265,7 +265,32 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: onlineBook,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Staff Payroll Management System ",
+    description:
+      "The system was created to manage the company's staff. To manage employee salaries in this system, a payroll system was developed. Here, users can search for employees by employee id to  calculate salaries, as well as update, delete, and view employee salary information.",
+    tags: [
+      {
+        name: "java",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "html",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "javaScript",
+        color: "green-text-gradient",
+      },
+    ],
+    image: payroll,
     source_code_link: "https://github.com/",
   },
 ];
