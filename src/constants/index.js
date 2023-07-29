@@ -208,7 +208,7 @@ const projects = [
   {
     name: "Green Leaf ",
     description:
-      "This system incorporates a stock management feature that enables users to access and download reports, as well as track available  stock after release, visually represented with graphs. Additionally, it includes a QR code generator for final products. To enhance user friendliness, pop-up windows and toast messages were implemented in the interface.",
+      "This system includes a stock management feature that allows users to access and download reports, track available stock with visual graphs after release, and a QR code generator for final products. To improve user-friendliness, the interface utilizes pop-up windows and toast messages.",
     tags: [
       {
         name: "react.JS",
@@ -233,7 +233,7 @@ const projects = [
   {
     name: "Tuarify",
     description:
-      "The aim of this travel app was to increase tourists' access to and affordability of travel. This system's drivers management function was implemented to manage drivers' profiles, view drivers' details for customers, and manage drivers' payment information",
+      " The purpose of this travel application was to enhance tourists' travel accessibility and affordability. The drivers' management function within the system was designed to handle drivers' profiles, display their details to customers, and manage their payment information.",
     tags: [
       {
         name: "Kotlin",
@@ -250,7 +250,7 @@ const projects = [
   {
     name: "The Bigbook Shelf",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "The online bookstore's website application enables the administrator to add and approve books for sale. Customers can browse, purchase, and complete transactions securely, ensuring a user-friendly experience for all users involved in interacting with the bookstore's offerings.",
     tags: [
       {
         name: "php",
@@ -269,9 +269,9 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Staff Payroll Management System ",
+    name: "Staff Management ",
     description:
-      "The system was created to manage the company's staff. To manage employee salaries in this system, a payroll system was developed. Here, users can search for employees by employee id to  calculate salaries, as well as update, delete, and view employee salary information.",
+      "This comprehensive staff management system includes a payroll feature that enables users to calculate employee salaries based on their unique ID. Additionally, users can conveniently access, view, update, and delete employee salary information, ensuring efficient management of staff and salaries.",
     tags: [
       {
         name: "java",
