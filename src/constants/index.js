@@ -14,7 +14,6 @@ import {
   mongodb,
   git,
   figma,
-  docker,
   sliit,
   threejs,
   college,
@@ -25,6 +24,7 @@ import {
   tuarify,
   onlineBook,
   grrenleaf,
+  java,
 } from "../assets";
 
 export const navLinks = [
@@ -71,6 +71,11 @@ const technologies = [
     icon: css,
   },
   {
+    name: "java",
+    icon: java,
+  },
+
+  {
     name: "JavaScript",
     icon: javascript,
   },
@@ -109,10 +114,6 @@ const technologies = [
   {
     name: "figma",
     icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
